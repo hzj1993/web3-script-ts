@@ -1,0 +1,24 @@
+.App .arco-layout-header,
+.App .arco-layout-footer,
+.App .arco-layout-sider,
+.App .arco-layout-sider-children,
+.App .arco-layout-content {
+  text-align: center;
+  font-stretch: condensed;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App .arco-layout-header,
+.App .arco-layout-footer {
+  height: 64px;
+}
+
+.App .arco-layout-sider {
+  width: 206px;
+}
+
+.App .arco-layout-content {
+}
